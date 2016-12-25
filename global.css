@@ -1,0 +1,51 @@
+span > p > img {
+  float: left;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.josefin {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.crimson {
+  font-family: 'Crimson Text', serif;
+}
+
+.subnav + .subnav {
+  margin-top: .75rem;
+}
+
+.kyle-green {
+  color: #3d9991;
+}
+
+.kyle-nav-green {
+  color: #00746b;
+}
+
+.br-callout {
+  border-radius: 1.8rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.3);
+  z-index: 99;
+}
+
+.br-callout:hover {
+  background-color: white;
+}
+
+.br-callout:hover a {
+  color: black;
+}
